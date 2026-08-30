@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@500&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/projetos-basicos/01-formulario-cadastro-login/images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.forms {
+    width: 100%;
+    max-width: 400px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px;
+    border-color: #fff;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.cadastro h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #6350be;
+}
+
+.labels {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inputs {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: #fff;
+    height: 20px;
+    padding: 5px;
+    width: 200px;
+    box-shadow: 5px 8px 5px rgba(101, 77, 129, 0.3);
+}
+
+#nascimento-cadastro {
+    display: flex;
+    justify-content: center;
+    color: #6350be;
+}
+
+.login {
+    display: none;
+    flex-direction: column;
+    border: solid 5px;
+    border-color: #fff;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.login h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #6350be;
+}
+
+.form-cadastro,
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.alternar-login-cadastro {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #6350be;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.alternar-login-cadastro:hover {
+    color: rgb(77, 119, 255);
+}
+
+.botao-send {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: #fff;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: #6350be;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.botao-send:hover {
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: hsl(244, 45%, 79%);
+    background-color: hsl(244, 45%, 79%);
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: #6350be;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.recuperar-senha {
+    color: #4f2e7a;
+}

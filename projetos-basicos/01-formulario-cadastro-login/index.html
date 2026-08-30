@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro e Login</title>
+    <link rel="stylesheet" href="/projetos-basicos/01-formulario-cadastro-login/style.css">
+</head>
+
+<body>
+    <div class="forms">
+
+        <div class="cadastro">
+            <form action="register.js" class="form-cadastro">
+                <h2>Cadastre-se:</h2>
+                <label class="labels" for="nome-cadastro">Nome Completo:</label>
+                <input id="nome-cadastro" class="inputs" type="text" name="nome">
+
+                <label class="labels" for="email-cadastro">E-mail:</label>
+                <input id="email-cadastro" class="inputs" type="email" name="email">
+
+                <label class="labels" for="usuario-cadastro">Nome de Usuario:</label>
+                <input id="usuario-cadastro" class="inputs" type="text" name="nome-usuario">
+
+                <label class="labels" for="nascimento-cadastro">Data de Nascimento:</label>
+                <input id="nascimento-cadastro" class="inputs" type="date" name="data-nascimento">
+
+                <label class="labels" for="senha-cadastro">Crie sua senha:</label>
+                <input id="senha-cadastro" class="inputs" type="password" name="senha">
+
+                <label class="labels" for="confirmacao-senha-cadastro">Confirme a Senha:</label>
+                <input id="confirmacao-senha-cadastro" class="inputs" type="password" name="confirmar-senha">
+
+                <input class="botao-send" id="botao-cadastro" type="submit" value="Cadastrar-se">
+            </form>
+            <p class="conta" id="entrar-conta">Ja tem uma conta?
+                <button class="alternar-login-cadastro" type="button">Entrar</button>
+            </p>
+        </div>
+
+        <!-- Formulario para login-->
+        <div class="login">
+            <form class="form-login">
+                <h2>Login:</h2>
+                <label class="labels" for="email-login">E-mail:</label>
+                <input id="email-login" class="inputs" type="email" name="email">
+
+                <label class="labels" for="senha-login">Digite sua senha:</label>
+                <input id="senha-login" class="inputs" type="password" name="senha">
+
+                <input class="botao-send" id="botao-login" type="submit" value="Entrar">
+            </form>
+            <a class="recuperar-senha" id="recuperar-senha" href="reset-password.html">Esqueceu sua senha?</a>
+            <p class="conta" id="criar-conta">Ainda nao tem uma conta?
+                <button class="alternar-login-cadastro" type="button">Criar</button>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
